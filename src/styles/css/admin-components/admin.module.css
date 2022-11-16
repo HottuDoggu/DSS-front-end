@@ -1,0 +1,30 @@
+.header__container{
+   height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.header__box{
+  width: 80%;
+  height: 80px;
+  background-color: #f2883c;
+  background-image: linear-gradient(85deg, #f2883c 0%, #cd1010 74%);
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+}.header__logo{
+  display: flex;
+  align-items: center;
+}.flexspace{
+  flex-grow: 1;
+}.nav__box{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}.nav__box a{
+  color: white;
+  font-size: 20px;
+}.User__box{
+
+}

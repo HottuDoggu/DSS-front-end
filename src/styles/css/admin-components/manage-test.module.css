@@ -1,0 +1,210 @@
+.container {
+  min-height: 500px;
+}
+.content {
+  margin-top: 100px;
+}
+
+/*manage webdev*/
+
+.webdev__container {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.webdev__addtest {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.addtest__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding: 10px;
+  background: #808080;
+  background: linear-gradient(90.29deg, #d6b086 0%, #660000 76.53%);
+  color: white;
+}
+.addtest__header h2{
+  font-family: "Poppins";
+}
+.addtest__header button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.addtest__content {
+  padding: 20px;
+  display: flex;
+  background-color: white;
+}
+.input__box {
+  display: flex;
+  flex-direction: row;
+}
+.input__box div {
+  width: 40px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+}
+
+.input__question {
+  width: 500px;
+  outline: none;
+  border: 1px solid black;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+.choices__box {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__choices {
+  width: 200px;
+  outline: none;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.input__box1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 1rem;
+}
+.input__box1 div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+}
+.error__box {
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__answer {
+  width: 110px;
+  outline: none;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+.input__answer1 {
+  width: 150px;
+  outline: none;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+}
+.input__box1 button {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+  border-radius: 20px;
+}
+
+
+/* Display Test */
+
+.webdev__display {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1rem 0;
+}
+
+.addtest__header_display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding: 10px;
+  background-color: #674747;
+  color: white;
+}
+
+.addtest__header_display button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 .5rem;
+}
+
+.addtest__content {
+  padding: 20px;
+  display: flex;
+}
+
+.display__box{
+  margin-top: 50px;
+  
+}
+.display__box h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.input__box2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 1rem;
+}
+.input__box2 div {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+}
+.choices__box1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.choices__display{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* manage choices */
+
+
+
+
+

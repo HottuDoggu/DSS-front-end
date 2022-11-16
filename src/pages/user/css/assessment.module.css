@@ -1,0 +1,135 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+}
+.question__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question__box h1{
+  font-family: "Poppins";
+  font-size: 30px;
+}
+
+.content {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.reset__btn {
+  display: flex;
+}
+
+.reset__btn button {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+
+.reset__btn button:hover {
+  color: black;
+}
+.question__box2 {
+  min-width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 200px;
+  margin: 1rem 1rem;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: white;
+}
+.test__question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.test__question h3 {
+  margin-left: 20px;
+}
+
+.test__choices {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.choices__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  width: 100%;
+}
+
+.choices__content button {
+  height: 30px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgb(126, 107, 107);
+  cursor: pointer;
+}
+
+.choices__content button:hover {
+  background-color: rgb(178, 164, 164);
+}
+
+.choices__content div {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgb(126, 107, 107);
+  height: 30px;
+  border-left: none;
+  flex-grow: 1;
+}
+
+.submit__btn {
+  text-align: center;
+  padding: 10px;
+  margin: 1rem 1rem;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.submit__btn:hover {
+  background-color: white;
+  color: #660000;
+}
+
+.choice__box {
+  display: flex;
+  flex-direction: row;
+}
+.choice__box button{
+  height: 15px;
+  margin: .3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 90%;
+}

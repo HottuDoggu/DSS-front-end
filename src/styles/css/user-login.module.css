@@ -1,0 +1,153 @@
+.input__box{
+  height:70px;
+  margin: .5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.input{
+  height: 50px;
+  font-size: 15px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  text-align: left;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.submit__button{
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #660000;
+  color: #660000;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 90px;
+  font-family: "Poppins";
+}
+.submit__button:hover{
+    background-color: rgb(218, 77, 77);
+    color: white;
+}
+
+.return__button{
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #660000;
+  color: #660000;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 90px;
+  font-family: "Poppins";
+  margin-left: 20px;
+}
+
+.return__button:hover{
+  background-color: rgb(218, 77, 77);
+  color: white;
+}
+
+.button{
+  display: flex;
+}
+
+.register__button{
+  background-color: transparent;
+  color: #660000;
+  border: none;
+  margin: 1rem 0;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.forgot__button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 1rem 0;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+
+.forgot__button:hover{
+  color: white;
+}
+
+.admin__button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 1rem 0;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+
+.bsu__logo{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.pic1{
+  margin-right: 50px;
+}
+.text{
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+.text p{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+}
+
+.button1{
+  display: flex;
+}
+
+.button1 p{
+  color: white;
+  font-family: "Poppins";
+}
+.image1{
+  margin-left: 50px;
+}
