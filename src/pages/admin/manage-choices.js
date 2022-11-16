@@ -29,14 +29,14 @@ export default function ManageChoices() {
   const [choicesData,setChoicesData] = useState([]);
 
   const getChoicesData = () => {
-    axios.get(`http://localhost:3001/test/choice/fetch/${id}`).then((response)=>{
+    axios.get(`${serverApi}test/choice/fetch/${id}`).then((response)=>{
       console.log(response.data);
       setChoicesData(response.data);
     })
   }
 
   const handleChoiceDelete = (id) => {
-    axios.post(`http://localhost:3001/test/choice/delete/${id}`).then((response)=>{
+    axios.post(`${serverApi}test/choice/delete/${id}`).then((response)=>{
       console.log(response.data);
       getChoicesData();
     })
